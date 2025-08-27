@@ -1,16 +1,22 @@
- #menu--btn{
-  transition: .5s all ease-in-out;
+#menu--btn {
+  transition: 0.5s all ease-in-out;
   border: 0;
- }
-body.class--menu{
-& #menu--btn{
-transition: all .3s ease-in-out;
-& .menu{
-  display: none;
 }
-& .menu-close{
-  display: block !important;
-  transition: all .3s ease-in-out;
-}
-}  
+body.class--menu {
+  & header {
+    background: #fb4;
+    transition: 0.5s;
+    color: #fff !important;
+    font-weight: bolder;
+  }
+  & #menu--btn {
+    transition: all 0.3s ease-in-out;
+    & .menu {
+      display: none;
+    }
+    & .menu-close {
+      display: block !important;
+      transition: all 0.3s ease-in-out;
+    }
+  }
 }
