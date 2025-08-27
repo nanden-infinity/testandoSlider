@@ -1,0 +1,16 @@
+ #menu--btn{
+  transition: .5s all ease-in-out;
+  border: 0;
+ }
+body.class--menu{
+& #menu--btn{
+transition: all .3s ease-in-out;
+& .menu{
+  display: none;
+}
+& .menu-close{
+  display: block !important;
+  transition: all .3s ease-in-out;
+}
+}  
+}

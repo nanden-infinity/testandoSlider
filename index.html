@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/css/output.css">
+  <script src="main.js" defer></script>
+  <title>Slider</title>
+</head>
+
+<body>
+  <div class="container--body container mx-auto">
+
+    <header class="container p-4">
+      <div class="container--header flex items-center">
+        <div class="logo">Logo</div>
+        <nav class="flex ml-auto items-center space-x-4">
+          <ul class="flex space-x-4 hidden md:flex">
+            <li><a href="#">Jordon</a></li>
+            <li><a href="#">Adidas</a></li>
+            <li><a href="#">Nike</a></li>
+            <li><a href="#">Info</a></li>
+          </ul>
+          <button class="btn hidden md:block bg-sky-500 p-2 px-6 rounded text-white">Login</button>
+          <div class="md:hidden">
+            <button id="menu--btn" class="open-menu">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 menu">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6 hidden menu-close">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+              </svg>
+
+            </button>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero container">
+        <h1>Welcome to Our Website</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
+        <button class="btn">Sign In</button>
+
+        <!-- Card Members -->
+        <article class="container">
+          <div class="wrapper">
+            <figure>
+              <div class="box--imag"></div>
+              <div class="circlo--img"><img src="" alt=""></div>
+              <h1>Person Name</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nesciunt aliquid delectus!</p>
+              <button class="btn rounded">Find More</button>
+            </figure>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>Footer</p>
+    </footer>
+  </div>
+</body>
+
+</html>
