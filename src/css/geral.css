@@ -4,10 +4,14 @@
 }
 body.class--menu {
   & header {
-    background: #fb4;
+    background: rgb(249, 165, 18);
     transition: 0.5s;
     color: #fff !important;
     font-weight: bolder;
+    & .logo {
+      font-size: 1rem;
+      color: rgb(74, 48, 4);
+    }
   }
   & #menu--btn {
     transition: all 0.3s ease-in-out;
