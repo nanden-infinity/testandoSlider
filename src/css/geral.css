@@ -23,32 +23,42 @@ body.class--menu {
       transition: all 0.3s ease-in-out;
     }
   }
-    
+  & ul.ativo {
+    transform: scaleY(1) rotate(0) translateY(0) translateZ(0);
+    height: 100vh;
+    transition: all 2s ease-in-out;
+  }
   & ul {
-    min-height: 100vh;
+    transform: scaleY(0) rotate(0) translateY(10px) translateZ(5deg);
+    min-height: 0;
     display: flex !important;
     position: absolute;
-    justify-content: start;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
     flex-direction: column;
     top: 60px;
     left: 0;
     padding: 10px 40px;
     width: 100%;
-    background: rgba(28, 24, 24, 0.824);
+    background: rgba(18, 11, 0, 0.824);
 
     margin: 0;
     text-align: center;
     z-index: 9999;
     & li {
       display: flex;
-      align-items: end;
-      justify-content: end;
+      align-items: center;
+      justify-items: center;
       width: 100%;
-        padding: 2px;
+
+      border-bottom: 2px solid #f1eae565;
+      padding: 2px;
       & a {
         color: rgb(238, 232, 216) !important;
         font-weight: bolder;
         text-align: center;
+        margin: 0 !important;
         padding: 10px 1rem;
         display: inline-block;
       }

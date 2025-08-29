@@ -1,22 +1,25 @@
-// pegar(url);
 
-// const buttonMenu = document.getElementById("menu--btn");
 
-// const eventTarget = "click";
-// buttonMenu.addEventListener(eventTarget, openMenu)
+const buttonMenu = document.getElementById("menu--btn");
 
-// function openMenu(ev) {
-//   console.log(ev);
-//   const menuOpen = this.querySelector(".menu");
-//   console.log(menuOpen);
-//   document.body.classList.toggle("class--menu");
-// }
+const eventTarget = "click";
+buttonMenu.addEventListener(eventTarget, openMenu)
 
-//  function pegar(href) {
-//   const dados =  href
+function openMenu(ev) {
 
-//   console.log("results", dados);
-// }
+  const menuOpen = this.querySelector(".menu");
+  
+  document.body.classList.toggle("class--menu");
+ const ul = document.querySelector("ul").classList.toggle("ativo")
+
+ console.log(ul);
+}
+
+ function pegar(href) {
+  const dados =  href
+
+  console.log("results", dados);
+}
 
 // console.log("ola mundo");
 
